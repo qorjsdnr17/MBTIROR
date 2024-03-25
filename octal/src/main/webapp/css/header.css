@@ -1,0 +1,50 @@
+
+
+header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	border-bottom: 1px solid #333;
+	padding: 5px;
+	margin-bottom: 3%;
+}
+
+.navigator {
+	padding-right: 5%;
+}
+.navigator a {
+
+	list-style: none;
+	margin: 10px;
+	font: 12px;
+	color: blueviolet;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: large;
+}
+
+.endHeader {
+	clear: both;
+}
+
+#logo {
+	width: 500px;
+	height: auto;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+
+#logo-img {
+
+	height: auto;
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#logo img {
+	width: 100%;
+	object-fit: contain;
+}

@@ -1,0 +1,5 @@
+ul { list-style: none; }
+li {  
+    float: right;
+    padding: 10px;
+}

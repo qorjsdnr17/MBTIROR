@@ -1,0 +1,208 @@
+body {}
+
+.container {}
+
+section {}
+
+#main {
+	display: grid;
+
+	justify-content: center;
+	align-items: center;
+	grid-template-columns: repeat(4, 200px);
+	grid-template-rows: minmax(100px, auto);
+	grid-gap: 20px 30px;
+
+}
+
+.box {
+	text-align: center;
+	width: 150px;
+	height: 100px;
+	padding: 15px;
+	background-color: #eee;
+}
+
+.box button {
+	border: none;
+	background: none;
+}
+
+.box:nth-child(odd) {
+	background-color: blueviolet;
+}
+
+#box01 {
+	border: 3px solid blueviolet;
+	transition: all linear 1.5s;
+}
+
+#box01:hover {
+	border: 3px solid #9b9999;
+	border-radius: 50%;
+}
+
+#box02 {
+	border: 3px solid #eee;
+	transition: all linear 1.5s;
+}
+
+#box02:hover {
+	border: 3px solid blueviolet;
+	border-radius: 50%;
+}
+
+#box03 {
+	border: 3px solid blueviolet;
+	transition: all linear 1.5s;
+}
+
+#box03:hover {
+	border: 3px solid #9b9999;
+	border-radius: 50%;
+}
+
+#box04 {
+	border: 3px solid #eee;
+	transition: all linear 1.5s;
+}
+
+#box04:hover {
+	border: 3px solid blueviolet;
+	border-radius: 50%;
+}
+
+#box05 {
+	border: 3px solid blueviolet;
+	transition: all linear 1.5s;
+}
+
+#box05:hover {
+	border: 3px solid #9b9999;
+	border-radius: 50%;
+}
+
+#box06 {
+	border: 3px solid #eee;
+	transition: all linear 1.5s;
+}
+
+#box06:hover {
+	border: 3px solid blueviolet;
+	border-radius: 50%;
+}
+
+#box07 {
+	border: 3px solid blueviolet;
+	transition: all linear 1.5s;
+}
+
+#box07:hover {
+	border: 3px solid #9b9999;
+	border-radius: 50%;
+}
+
+#box08 {
+	border: 3px solid #eee;
+	transition: all linear 1.5s;
+}
+
+#box08:hover {
+	border: 3px solid blueviolet;
+	border-radius: 50%;
+}
+
+#box09 {
+	border: 3px solid blueviolet;
+	transition: all linear 1.5s;
+}
+
+#box09:hover {
+	border: 3px solid #9b9999;
+	border-radius: 50%;
+}
+
+#box10 {
+	border: 3px solid #eee;
+	transition: all linear 1.5s;
+}
+
+#box10:hover {
+	border: 3px solid blueviolet;
+	border-radius: 50%;
+}
+
+#box11 {
+	border: 3px solid blueviolet;
+	transition: all linear 1.5s;
+}
+
+#box11:hover {
+	border: 3px solid #9b9999;
+	border-radius: 50%;
+}
+
+#box12 {
+	border: 3px solid #eee;
+	transition: all linear 1.5s;
+}
+
+#box12:hover {
+	border: 3px solid blueviolet;
+	border-radius: 50%;
+}
+
+#box13 {
+	border: 3px solid blueviolet;
+	transition: all linear 1.5s;
+}
+
+#box13:hover {
+	border: 3px solid #9b9999;
+	border-radius: 50%;
+}
+
+#box14 {
+	border: 3px solid #eee;
+	transition: all linear 1.5s;
+}
+
+#box14:hover {
+	border: 3px solid blueviolet;
+	border-radius: 50%;
+}
+
+#box15 {
+	border: 3px solid blueviolet;
+	transition: all linear 1.5s;
+}
+
+#box15:hover {
+	border: 3px solid #9b9999;
+	border-radius: 50%;
+}
+
+#box16 {
+	border: 3px solid #eee;
+	transition: all linear 1.5s;
+
+}
+
+#box16:hover {
+	border: 3px solid blueviolet;
+	border-radius: 50%;
+}
+
+footer {
+	float: center;
+	padding: 20px 20px 20px 20px;
+}
+
+#foot {
+
+	color: blueviolet;
+	text-align: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: large;
+	background-color: rgb(226, 217, 217)
+}
